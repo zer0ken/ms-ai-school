@@ -1,3 +1,4 @@
-/.vscode
+.venv/
+**/.vscode/
 *.csv
 *.json
