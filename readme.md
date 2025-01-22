@@ -6,6 +6,7 @@
 - [`/over-the-moon`](over-the-moon/): 달 탐사 샘플 채집 데이터 분석 실습
 - [`/meteor-shower`](meteor-shower/): 유성우 관측 시기 데이터 분석 실습 
 - [`/bike`](bike/): 공유 자전거 데이터 분석 실습
+- [`/advertising`](advertising/): 광고 매체에 따른 판매량 예측 실습
 
 ---
 
