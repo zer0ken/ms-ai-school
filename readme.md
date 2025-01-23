@@ -34,11 +34,11 @@
     <tr>
         <td>광고 매체에 따른 판매량 예측 실습</td>
         <td>공유 자전거 예측? 실습</td>
-        <td>...</td>
         <td colspan=999>...</td>
     </tr>
     <tr>
         <td><img src="./resources/advertising2.png"></img></td>
+        <td>...</td>
         <td colspan=999>...</td>
     </tr>
 </table>
