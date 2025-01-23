@@ -39,6 +39,6 @@
     <tr>
         <td><img src="./resources/advertising2.png"></img></td>
         <td><img src="./resources/bike-regression2.png"></img></td>
-        <td></td>
+        <td><img src="./resources/iris2.png"></img></td>
     </tr>
 </table>
