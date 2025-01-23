@@ -17,7 +17,7 @@
     <tr>
         <td>달 탐사 샘플 채집 데이터 분석 실습</td>
         <td>유성우 관측 시기 데이터 분석 실습</td>
-        <td>달공유 자전거 데이터 분석 실습</td>
+        <td>공유 자전거 데이터 분석 실습</td>
     </tr>
     <tr>
         <td><img src="./resources/over-the-moon2.png"></img></td>
@@ -27,11 +27,13 @@
     <!-- 3행 -->
     <tr>
         <th><a href="/advertising/"><code>advertising</code></a></th>
+        <th><a href="/bike-regression//"><code>bike-regression</code></a></th>
         <th colspan=999><a href=""><code>...</code></a></th>
     </tr>
     </tr>
     <tr>
         <td>광고 매체에 따른 판매량 예측 실습</td>
+        <td>공유 자전거 예측? 실습</td>
         <td colspan=999>...</td>
     </tr>
     <tr>
