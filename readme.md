@@ -20,8 +20,8 @@
         <td>달공유 자전거 데이터 분석 실습</td>
     </tr>
     <tr>
-        <td><img height="120" src="./resources/over-the-moon.png"></img></td>
-        <td><img src="./resources/meteor-shower.png"></img></td>
+        <td><img src="./resources/over-the-moon2.png"></img></td>
+        <td><img src="./resources/meteor-shower2.png"></img></td>
         <td><img src="./resources/bike.png"></img></td>
     </tr>
     <!-- 3행 -->
