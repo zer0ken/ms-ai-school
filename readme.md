@@ -34,7 +34,7 @@
     <tr>
         <td>광고 매체에 따른 판매량 예측 실습</td>
         <td>공유 자전거 대여량 예측 실습</td>
-        <td>붓꽃 품종 예측 실습</td>
+        <td>붓꽃 품종 분류 실습</td>
     </tr>
     <tr>
         <td><img src="./resources/advertising2.png"></img></td>
