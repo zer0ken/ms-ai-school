@@ -1,8 +1,8 @@
-# ⚜🧠 Bike Regression
+# ⚜🧠 Iris
 
-공유 자전거 데이터를 토대로 진행하는 회귀 실습입니다.
+붓꽃 데이터를 기반으로 품종을 분류하는 실습입니다.
 
-![](/resources/bike-regression.png)
+![](/resources/iris.png)
 
 ---
 [`나가기`](../)
