@@ -27,18 +27,18 @@
     <!-- 3행 -->
     <tr>
         <th><a href="/advertising/"><code>advertising</code></a></th>
-        <th><a href="/bike-regression//"><code>bike-regression</code></a></th>
-        <th colspan=999><a href=""><code>...</code></a></th>
+        <th><a href="/bike-regression/"><code>bike-regression</code></a></th>
+        <th><a href="/iris/"><code>iris</code></a></th>
     </tr>
     </tr>
     <tr>
         <td>광고 매체에 따른 판매량 예측 실습</td>
-        <td>공유 자전거 예측? 실습</td>
-        <td colspan=999>...</td>
+        <td>공유 자전거 대여량 예측 실습</td>
+        <td>붓꽃 품종 예측 실습</td>
     </tr>
     <tr>
         <td><img src="./resources/advertising2.png"></img></td>
-        <td>...</td>
-        <td colspan=999>...</td>
+        <td><img src="./resources/bike-regression2.png"></img></td>
+        <td></td>
     </tr>
 </table>
