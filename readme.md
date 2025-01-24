@@ -44,17 +44,17 @@
     <!-- 4행 -->
     <tr>
         <th>🚀 <a href="rocket/"><code>rocket</code></a></th>
-        <th><a href=""><code>...</code></a></th>
+        <th>🍇 <a href="clustering/"><code>clustering</code></a></th>
         <th><a href=""><code>...</code></a></th>
     </tr>
     </tr>
     <tr>
         <td>상황에 따른 로켓 발사 여부 분류 실습</td>
-        <td>...</td>
+        <td>군집화 실습</td>
         <td>...</td>
     </tr>
     <tr>
-        <td><img src="/resources/rocket2.png"></img></td>
+        <td><img src="resources/rocket2.png"></img></td>
         <td><img src=""></img></td>
         <td><img src=""></img></td>
     </tr>
