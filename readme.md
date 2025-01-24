@@ -51,7 +51,7 @@
     <tr>
         <td>상황에 따른 로켓 발사 여부 분류 실습</td>
         <td>군집화 실습</td>
-        <td>...</td>
+        <td>프로야구 선수 군집화 실습</td>
     </tr>
     <tr>
         <td><img src="resources/rocket2.png"></img></td>
