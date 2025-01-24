@@ -1,0 +1,8 @@
+# ⚾ Baseball
+
+K-Means clustering을 수행하는 방법을 연습하는 실습입니다. 
+
+![](/resources/baseball.png)
+
+---
+[`나가기`](../)

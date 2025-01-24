@@ -45,7 +45,7 @@
     <tr>
         <th>🚀 <a href="rocket/"><code>rocket</code></a></th>
         <th>🍇 <a href="clustering/"><code>clustering</code></a></th>
-        <th><a href=""><code>...</code></a></th>
+        <th>⚾ <a href="baseball/"><code>baseball</code></a></th>
     </tr>
     </tr>
     <tr>
