@@ -5,13 +5,13 @@
 
 <table>
     <!-- 1행 -->
-    <tr><th colspan=999><a href="basics/">🐍 <code>basics</code></a></th></tr>
+    <tr><th colspan=999>🐍 <a href="basics/"><code>basics</code></a></th></tr>
     <tr><td colspan=999>파이썬 기초 문법 실습</td></tr>
     <!-- 2행 -->
     <tr>
-        <th><a href="over-the-moon/">🌙 <code>over-the-moon</code></a></th>
-        <th><a href="meteor-shower/">🌠 <code>meteor-shower</code></a></th>
-        <th><a href="bike">🚲 <code>bike</code></a></th>
+        <th>🌙 <a href="over-the-moon/"><code>over-the-moon</code></a></th>
+        <th>🌠 <a href="meteor-shower/"><code>meteor-shower</code></a></th>
+        <th>🚲 <a href="bike"><code>bike</code></a></th>
     </tr>
     </tr>
     <tr>
@@ -26,9 +26,9 @@
     </tr>
     <!-- 3행 -->
     <tr>
-        <th><a href="advertising/">📺 <code>advertising</code></a></th>
-        <th><a href="bike-regression/">🚲 <code>bike-regression</code></a></th>
-        <th><a href="iris/">⚜️ <code>iris</code></a></th>
+        <th>📺 <a href="advertising/"><code>advertising</code></a></th>
+        <th>🚲 <a href="bike-regression/"><code>bike-regression</code></a></th>
+        <th>⚜️ <a href="iris/"><code>iris</code></a></th>
     </tr>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
     </tr>
     <!-- 4행 -->
     <tr>
-        <th><a href="rocket/">🚀 <code>rocket</code></a></th>
+        <th>🚀 <a href="rocket/"><code>rocket</code></a></th>
         <th><a href=""><code>...</code></a></th>
         <th><a href=""><code>...</code></a></th>
     </tr>
