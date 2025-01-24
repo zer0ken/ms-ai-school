@@ -5,13 +5,13 @@
 
 <table>
     <!-- 1행 -->
-    <tr><th colspan=999><a href="/basics/"><code>basics</code></a></th></tr>
+    <tr><th colspan=999><a href="basics/">🐍 <code>basics</code></a></th></tr>
     <tr><td colspan=999>파이썬 기초 문법 실습</td></tr>
     <!-- 2행 -->
     <tr>
-        <th><a href="/over-the-moon/"><code>over-the-moon</code></a></th>
-        <th><a href="/meteor-shower/"><code>meteor-shower</code></a></th>
-        <th><a href="/bike"><code>bike</code></a></th>
+        <th><a href="over-the-moon/">🌙 <code>over-the-moon</code></a></th>
+        <th><a href="meteor-shower/">🌠 <code>meteor-shower</code></a></th>
+        <th><a href="bike">🚲 <code>bike</code></a></th>
     </tr>
     </tr>
     <tr>
@@ -20,15 +20,15 @@
         <td>공유 자전거 데이터 분석 실습</td>
     </tr>
     <tr>
-        <td><img src="./resources/over-the-moon2.png"></img></td>
-        <td><img src="./resources/meteor-shower2.png"></img></td>
-        <td><img src="./resources/bike.png"></img></td>
+        <td><img src="resources/over-the-moon2.png"></img></td>
+        <td><img src="resources/meteor-shower2.png"></img></td>
+        <td><img src="resources/bike.png"></img></td>
     </tr>
     <!-- 3행 -->
     <tr>
-        <th><a href="/advertising/"><code>advertising</code></a></th>
-        <th><a href="/bike-regression/"><code>bike-regression</code></a></th>
-        <th><a href="/iris/"><code>iris</code></a></th>
+        <th><a href="advertising/">📺 <code>advertising</code></a></th>
+        <th><a href="bike-regression/">🚲 <code>bike-regression</code></a></th>
+        <th><a href="iris/">⚜️ <code>iris</code></a></th>
     </tr>
     </tr>
     <tr>
@@ -37,8 +37,8 @@
         <td>붓꽃 품종 분류 실습</td>
     </tr>
     <tr>
-        <td><img src="./resources/advertising2.png"></img></td>
-        <td><img src="./resources/bike-regression2.png"></img></td>
-        <td><img src="./resources/iris2.png"></img></td>
+        <td><img src="resources/advertising2.png"></img></td>
+        <td><img src="resources/bike-regression2.png"></img></td>
+        <td><img src="resources/iris2.png"></img></td>
     </tr>
 </table>
