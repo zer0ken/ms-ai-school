@@ -49,12 +49,12 @@
     </tr>
     </tr>
     <tr>
-        <td>로켓 발사? 실습</td>
+        <td>상황에 따른 로켓 발사 여부 분류 실습</td>
         <td>...</td>
         <td>...</td>
     </tr>
     <tr>
-        <td><img src=""></img></td>
+        <td><img src="/resources/rocket2.png"></img></td>
         <td><img src=""></img></td>
         <td><img src=""></img></td>
     </tr>
