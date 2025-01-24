@@ -41,4 +41,21 @@
         <td><img src="resources/bike-regression2.png"></img></td>
         <td><img src="resources/iris2.png"></img></td>
     </tr>
+    <!-- 4행 -->
+    <tr>
+        <th><a href="rocket/">🚀 <code>rocket</code></a></th>
+        <th><a href=""><code>...</code></a></th>
+        <th><a href=""><code>...</code></a></th>
+    </tr>
+    </tr>
+    <tr>
+        <td>로켓 발사? 실습</td>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+    <tr>
+        <td><img src=""></img></td>
+        <td><img src=""></img></td>
+        <td><img src=""></img></td>
+    </tr>
 </table>
