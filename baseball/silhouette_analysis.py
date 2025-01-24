@@ -10,7 +10,7 @@ def silhouette_plot(X, n_clusters, ax):
     n_clusters: 클러스터의 수 (k 값)
     """
     # KMeans 모델 학습
-    kmeans = KMeans(n_clusters=n_clusters, random_state=10)
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
     cluster_labels = kmeans.fit_predict(X)
 
     # 실루엣 점수 계산
