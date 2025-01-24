@@ -56,6 +56,6 @@
     <tr>
         <td><img src="resources/rocket2.png"></img></td>
         <td><img src="resources/clustering2.png"></img></td>
-        <td><img src=""></img></td>
+        <td><img src="resources/baseball2.png"></img></td>
     </tr>
 </table>
