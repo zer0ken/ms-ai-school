@@ -58,4 +58,15 @@
         <td><img src="resources/clustering2.png"></img></td>
         <td><img src="resources/baseball2.png"></img></td>
     </tr>
+    <!-- 5행 -->
+    <tr>
+        <th colspan=999>🕸️ <a href="browser/"><code>browser</code></a></th>
+    </tr>
+    </tr>
+    <tr>
+        <td colspan=999>웹 크롤링 & 스크래핑 실습</td>
+    </tr>
+    <tr>
+        <td colspan=999><img src=""></img></td>
+    </tr>
 </table>
