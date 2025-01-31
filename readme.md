@@ -67,6 +67,6 @@
         <td colspan=999>웹 크롤링 & 스크래핑 실습</td>
     </tr>
     <tr>
-        <td colspan=999><img src=""></img></td>
+        <td colspan=999><img src="resources/brower.png"></img></td>
     </tr>
 </table>
