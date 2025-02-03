@@ -2,21 +2,26 @@
 
 `python 3.12.7` 버전에서 작성되었습니다. `*.csv`, `*.json`, `*.xlsx` 등의 데이터 파일은 저작권 보호를 위해 저장소에 포함시키지 않고 있으니, 코드 실행 전에 적절한 위치에 직접 데이터 파일을 추가해주세요.
 
+## 🔩 구현
 
 <table>
     <!-- 1행 -->
     <tr>
         <th>🐍 <a href="basics/"><code>basics</code></a></th>
-        <th colspan=999>🗐 <a href="neural-net/"><code>neural-net</code></a></th>
+        <th colspan=1>🗐 <a href="neural-net/"><code>neural-net</code></a></th>
     </tr>
     <tr>
         <td>파이썬 기초 문법 실습</td>
-        <td colspan=999><code>numpy</code> 인공신경망 구현 실습</td>
+        <td colspan=1><code>numpy</code> 인공신경망 구현 실습</td>
     </tr>
     <tr>
         <td><img src="resources/basics.png"></img></td>
-        <td colspan=999><img height="180" src="resources/neural-net.png"></img></td>
+        <td colspan=1><img src="resources/neural-net.png"></img></td>
     </tr>
+</table>
+
+## 🔍 데이터 분석
+<table>
     <!-- 2행 -->
     <tr>
         <th>🌙 <a href="over-the-moon/"><code>over-the-moon</code></a></th>
