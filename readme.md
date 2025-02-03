@@ -7,7 +7,7 @@
     <!-- 1행 -->
     <tr>
         <th>🐍 <a href="basics/"><code>basics</code></a></th>
-        <th colspan=999>🗐 <a href="basics/"><code>neural-network</code></a></th>
+        <th colspan=999>🗐 <a href="neural-network/"><code>neural-network</code></a></th>
     </tr>
     <tr>
         <td>파이썬 기초 문법 실습</td>
