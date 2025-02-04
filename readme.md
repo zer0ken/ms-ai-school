@@ -11,7 +11,7 @@
     <!-- 1행 -->
     <tr>
         <th>🐍 <a href="basics/"><code>basics</code></a></th>
-        <th colspan=1>🗐 <a href="neural-net/"><code>neural-net</code></a></th>
+        <th colspan=1>🧵 <a href="neural-net/"><code>neural-net</code></a></th>
     </tr>
     <tr>
         <td>파이썬 기초 문법 실습</td>
