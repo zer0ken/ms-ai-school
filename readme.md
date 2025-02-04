@@ -11,15 +11,15 @@
     <!-- 1행 -->
     <tr>
         <th>🐍 <a href="basics/"><code>basics</code></a></th>
-        <th colspan=1>🧵 <a href="neural-net/"><code>neural-net</code></a></th>
+        <th>🧵 <a href="neural-net/"><code>neural-net</code></a></th>
     </tr>
     <tr>
         <td>파이썬 기초 문법 실습</td>
-        <td colspan=1><code>numpy</code> 인공신경망 구현 실습</td>
+        <td><code>numpy</code> 인공신경망 구현 실습</td>
     </tr>
     <tr>
-        <td><img src="resources/basics.png"></img></td>
-        <td colspan=1><img src="resources/neural-net.png"></img></td>
+        <td><img height="200" src="resources/basics.png"></img></td>
+        <td><img height="200"src="resources/neural-net2.png"></img></td>
     </tr>
 </table>
 
