@@ -19,7 +19,7 @@
     </tr>
     <tr>
         <td><img height="200" src="resources/basics.png"></img></td>
-        <td><img height="200"src="resources/neural-net2.png"></img></td>
+        <td><img height="200"src="resources/neural-net2.png?"></img></td>
     </tr>
 </table>
 
