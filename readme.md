@@ -21,7 +21,7 @@
     <tr>
         <td><img width="300" src="https://raw.githubusercontent.com/zer0ken/branding/refs/heads/main/etc/msai/python-basics.png"></img></td>
         <td><img src="resources/neural-net2.png"></img></td>
-        <td><img src=""></img></td>
+        <td><img src="resources/stone2.png"></img></td>
     </tr>
 </table>
 
