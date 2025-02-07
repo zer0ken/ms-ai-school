@@ -6,20 +6,22 @@
 > `*.csv`, `*.json`, `*.xlsx` 등의 데이터 파일 및 일부 코드는 저작권 보호를 위해 저장소에 포함시키지 않고 있으니, 코드 실행 전에 필요한 파일을 확인하시고 적절한 위치에 직접 파일을 추가해주세요.
 
 ## 🔩 구현
-
 <table>
     <!-- 1행 -->
     <tr>
-        <th>🐍 <a href="basics/"><code>basics</code></a></th>
-        <th>🧵 <a href="neural-net/"><code>neural-net</code></a></th>
+        <th>🐍<a href="basics/"><code>basics</code></a></th>
+        <th>🧵<a href="neural-net/"><code>neural-net</code></a></th>
+        <th>🪨<a href="neural-net/"><code>stone</code></a></th>
     </tr>
     <tr>
         <td>파이썬 기초 문법 실습</td>
         <td><code>numpy</code> 인공신경망 구현 실습</td>
+        <td>암석 사진 분류 실습</td>
     </tr>
     <tr>
-        <td><img height="200" src="resources/basics.png"></img></td>
-        <td><img height="200"src="resources/neural-net2.png"></img></td>
+        <td><img width="300" src="https://raw.githubusercontent.com/zer0ken/branding/refs/heads/main/etc/msai/python-basics.png"></img></td>
+        <td><img src="resources/neural-net2.png"></img></td>
+        <td><img src=""></img></td>
     </tr>
 </table>
 
@@ -27,9 +29,9 @@
 <table>
     <!-- 2행 -->
     <tr>
-        <th>🌙 <a href="over-the-moon/"><code>over-the-moon</code></a></th>
-        <th>🌠 <a href="meteor-shower/"><code>meteor-shower</code></a></th>
-        <th>🚲 <a href="bike"><code>bike</code></a></th>
+        <th>🌙<a href="over-the-moon/"><code>over-the-moon</code></a></th>
+        <th>🌠<a href="meteor-shower/"><code>meteor-shower</code></a></th>
+        <th>🚲<a href="bike"><code>bike</code></a></th>
     </tr>
     </tr>
     <tr>
@@ -44,9 +46,9 @@
     </tr>
     <!-- 3행 -->
     <tr>
-        <th>📺 <a href="advertising/"><code>advertising</code></a></th>
-        <th>🚲 <a href="bike-regression/"><code>bike-regression</code></a></th>
-        <th>⚜️ <a href="iris/"><code>iris</code></a></th>
+        <th>📺<a href="advertising/"><code>advertising</code></a></th>
+        <th>🚲<a href="bike-regression/"><code>bike-regression</code></a></th>
+        <th>⚜️<a href="iris/"><code>iris</code></a></th>
     </tr>
     </tr>
     <tr>
@@ -61,9 +63,9 @@
     </tr>
     <!-- 4행 -->
     <tr>
-        <th>🚀 <a href="rocket/"><code>rocket</code></a></th>
-        <th>🍇 <a href="clustering/"><code>clustering</code></a></th>
-        <th>⚾ <a href="baseball/"><code>baseball</code></a></th>
+        <th>🚀<a href="rocket/"><code>rocket</code></a></th>
+        <th>🍇<a href="clustering/"><code>clustering</code></a></th>
+        <th>⚾<a href="baseball/"><code>baseball</code></a></th>
     </tr>
     </tr>
     <tr>
@@ -78,7 +80,7 @@
     </tr>
     <!-- 5행 -->
     <tr>
-        <th colspan=999>🕸️ <a href="browser/"><code>browser</code></a></th>
+        <th colspan=999>🕸️<a href="browser/"><code>browser</code></a></th>
     </tr>
     </tr>
     <tr>
