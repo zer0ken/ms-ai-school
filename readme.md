@@ -19,7 +19,7 @@
         <td>암석 사진 분류 실습</td>
     </tr>
     <tr>
-        <td><img src="https://raw.githubusercontent.com/zer0ken/branding/refs/heads/main/etc/msai/python-basics.png"></img></td>
+        <td><img width="500" src="https://raw.githubusercontent.com/zer0ken/branding/refs/heads/main/etc/msai/python-basics.png"></img></td>
         <td><img src="resources/neural-net2.png"></img></td>
         <td><img src="resources/stone2.png"></img></td>
     </tr>
