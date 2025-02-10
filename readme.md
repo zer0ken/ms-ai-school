@@ -12,16 +12,19 @@
         <th>🐍<a href="basics/"><code>basics</code></a></th>
         <th>🧵<a href="neural-net/"><code>neural-net</code></a></th>
         <th>🪨<a href="stone/"><code>stone</code></a></th>
+        <th>👁️‍🗨️<a href="custom-vision/"><code>custom-vision</code></a></th>
     </tr>
     <tr>
         <td>파이썬 기초 문법 실습</td>
         <td><code>numpy</code> 인공신경망 구현 실습</td>
         <td>암석 사진 분류 실습</td>
+        <td>Azure Custom Vision 실습</td>
     </tr>
     <tr>
         <td><img width="500" src="https://raw.githubusercontent.com/zer0ken/branding/refs/heads/main/etc/msai/python-basics.png"></img></td>
         <td><img src="resources/neural-net2.png"></img></td>
         <td><img src="resources/stone2.png"></img></td>
+        <td><img src="resources/custom-vision.png"></img></td>
     </tr>
 </table>
 

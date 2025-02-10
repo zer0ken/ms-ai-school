@@ -1,0 +1,8 @@
+ipywidgets
+matplotlib
+numpy
+pandas
+torch
+torchvision
+tqdm
+azure-cognitiveservices-vision-customvision
