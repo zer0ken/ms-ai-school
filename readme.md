@@ -34,6 +34,7 @@
     </tr>
     <tr>
         <td colspan=3><img src="resources/custom-vision.png"></img></td>
+        <td colspan=3><img src="resources/iris-gradio.png"></img></td>
     </tr>
 </table>
 

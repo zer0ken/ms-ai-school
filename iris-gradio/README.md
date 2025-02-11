@@ -2,7 +2,7 @@
 
 붓꽃 품종 분류 실습입니다. 근데 이제 GUI를 곁들인...
 
-<!-- ![](/resources/---.png) -->
+![](/resources/iris-gradio.png)
 
 ---
 [`나가기`](../)
