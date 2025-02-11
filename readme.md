@@ -26,7 +26,7 @@
     <!-- 2행 -->
     <tr>
         <th colspan=3>👁️‍🗨️<a href="custom-vision/"><code>custom-vision</code></a></th>
-        <th colspan=3><img width="12" src="resources/gradio-icon.png"> <a href="custom-vision/"><code>iris-gradio</code></a></th>
+        <th colspan=3><img width="12" src="resources/gradio-icon.png"> <a href="iris-gradio/"><code>iris-gradio</code></a></th>
     </tr>
     <tr>
         <td colspan=3>Azure Custom Vision 실습</td>
