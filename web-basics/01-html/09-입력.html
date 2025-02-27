@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>09 입력</title>
+  <style>
+    table,
+    td,
+    th {
+      border: 1px black solid;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+
+    thead {
+      background-color: lightblue;
+    }
+
+    .col1 {
+      background-color: lightyellow;
+    }
+
+  </style>
+</head>
+
+<body>
+  <form action="test.jsp">
+    <table>
+      <caption>
+        <b>input의 종류</b>
+      </caption>
+      <colgroup>
+        <col class="col1" />
+        <col />
+        <col />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>종류</th>
+          <th>모양</th>
+          <th>설명</th>
+          <th>주요속성</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>text</td>
+          <td><input type="text" size="10" maxlength="5" value="" /></td>
+          <td>한줄짜리 텍스트</td>
+          <td rowspan="6">
+            <ul>
+              <li>size:화면에 보여줄 크기</li>
+              <li>value:텍스트박스에 들어갈 값</li>
+              <li>maxlength:입력할 수 있는 최대 문자 수</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>password</td>
+          <td><input type="password" /></td>
+          <td>입력내용 마스킹</td>
+        </tr>
+        <tr>
+          <td>search</td>
+          <td><input type="search" /></td>
+          <td>검색어 입력</td>
+        </tr>
+        <tr>
+          <td>url</td>
+          <td><input type="url" name="" id="" /></td>
+          <td>url 유효성 검사</td>
+        </tr>
+        <tr>
+          <td>email</td>
+          <td><input type="email" name="" id="" /></td>
+          <td>email 유효성 검사</td>
+        </tr>
+        <tr>
+          <td>tel</td>
+          <td><input type="tel" name="" id="" /></td>
+          <td>키보드 어댑테이션(모바일기기)</td>
+        </tr>
+        <tr>
+          <td>checkbox</td>
+          <td>
+            <label for="chk1">선택1</label><input type="checkbox" name="chk" id="chk1" />
+            <label for="chk2">선택2</label><input type="checkbox" name="chk" id="chk2" />
+            <label for="chk3">선택3</label><input type="checkbox" name="chk" id="chk3" />
+          </td>
+          <td>복수선택</td>
+          <td rowspan="2">
+            <ul>
+              <li>value:서버에 넘겨줄 값(필수)</li>
+              <li>checked:기본선택</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>radio</td>
+          <td>
+            <label for="rdo1">선택1</label>
+            <input type="radio" name="rdo" id="rdo1" />
+            <label for="rdo2">선택2</label>
+            <input type="radio" name="rdo" id="rdo2" />
+            <label for="rdo3">선택3</label>
+            <input type="radio" name="rdo" id="rdo3" />
+          </td>
+          <td>단일선택</td>
+        </tr>
+        <tr>
+          <td>number</td>
+          <td><input type="number" min="1" max="10" step="2" /></td>
+          <td>숫자만 입력 가능, 스핀박스로 숫자 조절 가능</td>
+          <td rowspan="7">
+            <ul>
+              <li>min:최대값</li>
+              <li>max:최소값</li>
+              <li>step:증감단위</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>range</td>
+          <td><input type="range" min="1" max="10" step="2" /></td>
+          <td>숫자 조절을 위한 슬라이드 막대</td>
+        </tr>
+        <tr>
+          <td>date</td>
+          <td>
+            <input type="date" min="2023-01-01" max="2023-12-31" />
+          </td>
+          <td>연,월,일 선택</td>
+        </tr>
+        <tr>
+          <td>month</td>
+          <td><input type="month" min="2022-01" max="2023-12" /></td>
+          <td>연,월 선택</td>
+        </tr>
+        <tr>
+          <td>week</td>
+          <td><input type="week" /></td>
+          <td>연,월,주 선택</td>
+        </tr>
+        <tr>
+          <td>time</td>
+          <td><input type="time" /></td>
+          <td>시,분 선택</td>
+        </tr>
+        <tr>
+          <td>datetime-local</td>
+          <td><input type="datetime-local" /></td>
+          <td>연,월,일,시,분 선택</td>
+        </tr>
+        <tr>
+          <td>file</td>
+          <td><input type="file" name="" id="" /></td>
+          <td>파일 첨부</td>
+        </tr>
+        <tr>
+          <td>hidden</td>
+          <td><input type="hidden" name="" /></td>
+          <td>사용자에게는 보이지 않지만 서버로 넘겨주는 값 입력</td>
+        </tr>
+        <tr>
+          <td>submit</td>
+          <td><input type="submit" value="전송" /></td>
+          <td>form을 서버로 전송</td>
+        </tr>
+        <tr>
+          <td>reset</td>
+          <td><input type="reset" value="초기화" /></td>
+          <td>form을 리셋</td>
+        </tr>
+        <tr>
+          <td>image</td>
+          <td>
+            <input type="image" src="images/confirm.png" alt="" width="30" onclick="alert('confirm')" />
+          </td>
+          <td>버튼 대신 사용할 이미지</td>
+        </tr>
+        <tr>
+          <td>button</td>
+          <td>
+            <input type="button" value="클릭" onclick="alert('hello')" />
+          </td>
+          <td>일반 버튼</td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</body>
+
+</html>

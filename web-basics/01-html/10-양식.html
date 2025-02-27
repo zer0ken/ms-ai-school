@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 양식</title>
+    <style>
+      .title {
+        font-weight: bold;
+        background-color: rgb(241, 239, 239);
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px lightgray solid;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+      th {
+        width: 100px;
+        background-color: rgb(245, 242, 242);
+      }
+      td {
+        width: 500px;
+      }
+    </style>
+    <table>
+      <tr>
+        <th>요소</th>
+        <th>설명</th>
+        <th>주요속성</th>
+      </tr>
+      <tr>
+        <td><textarea name="" id="textarea" cols="30" rows="5"></textarea></td>
+        <td>여러 줄 입력 : textarea</td>
+        <td>
+          <ul>
+            <li>cols:가로 단위를 문자 단위로 지정</li>
+            <li>rows:세로 길이를 줄 단위로 지정</li>
+            <li>maxlength:최대 글자 수</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select name="select" id="select">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+          </select>
+        </td>
+        <td>드롭다운 목록 : select, option</td>
+        <td>
+          <b>select의 속성</b>
+          <ul>
+            <li>size:화면에 보여줄 드롭다운 항목의 개수</li>
+            <li>multiple:둘 이상의 항목 선택</li>
+          </ul>
+          <b>option의 속성</b>
+          <ul>
+            <li>selected:선택</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" list="domain" />
+          <datalist id="domain">
+            <option value="naver.com"></option>
+            <option value="gmail.com"></option>
+            <option value="daum.net"></option>
+          </datalist>
+        </td>
+        <td>데이터 목록 : textlist, option</td>
+        <td>input의 list속성과 datafield의 id 속성을 동일하게 지정</td>
+      </tr>
+      <tr>
+        <td>
+          <button type="submit">submit</button>
+          <button type="reset">reset</button>
+          <button type="button">button</button>
+        </td>
+        <td>button : css를 이용하여 꾸밀 수 있다.</td>
+        <td>
+          <ul>
+            <li>style : submit/reset/button</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
