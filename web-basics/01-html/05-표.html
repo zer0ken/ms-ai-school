@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>표</title>
     <style>
-        table, td, th {
-            border: 1px solid lightcoral;
-        }
         td, th {
             padding: 2px 8px 2px 8px;
+        }
+        th {
+            background-color: lightpink;
+        }
+        td {
+            border: 1px solid lightpink;
+            background-color: lightgoldenrodyellow;
         }
 </style>
 </head>
@@ -39,6 +43,44 @@
             <td>달러구트 꿈 백화점</td>
             <td>이미예</td>
             <td>팩토리나인</td>
+        </tr>
+    </table>
+    <br>
+
+    <table>
+        <caption>세미나 일정</caption>
+        <tr>
+            <th>지역</th>
+            <th>일자</th>
+            <th>시간</th>
+            <th>장소</th>
+        </tr>
+        <tr>
+            <th>대전</th>
+            <td>4월 11일(화)</td>
+            <td>10:00~13:00</td>
+            <td>라온 컨벤션 1층 가림홀</td>
+        </tr>
+        <tr>
+            <th>광주</th>
+            <td>4월 20일(목)</td>
+            <td>13:00~16:00</td>
+            <td>라마다 플라자 호텔 4층 대연회장</td>
+        </tr>
+        <tr>
+            <th rowspan="2">서울</th>
+            <td>6월 15일(목)</td>
+            <td>14:00~17:00</td>
+            <td>코엑스 컨퍼런스룸 401호</td>
+        </tr>
+        <tr>
+            <td>6월 21일(수)</td>
+            <td>14:00~17:00</td>
+            <td>당산 그랜드 컨벤션센터 2층</td>
+        </tr>
+        <tr>
+            <th>부산</th>
+            <td colspan="3">미정</td>
         </tr>
     </table>
 </body>
