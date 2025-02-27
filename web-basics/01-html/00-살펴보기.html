@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테스트</title>
+    <link rel="stylesheet" href="00-살펴보기.css">
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>웹 개발 기초</h1>
+    
+    <p style="color: purple">html</p>
+    
+    <p>css</p>
+    
+    <p>javascript</p>
+    
+    <button>시작하기</button>
+
+    <script src="00-살펴보기.js"></script>
+    <script>
+        let header1 = document.querySelector("h1");
+        header1.onclick = function() {
+            header1.style.backgroundColor = "red";
+            console.log('to red');
+        };
+    </script>
+    <script>
+        let header2 = document.querySelector("h1");
+        header2.onclick = function() {
+            header1.style.backgroundColor = "aqua";
+            console.log('to aqua');
+        };
+    </script>
+</body>
+</html>
