@@ -1,0 +1,18 @@
+body {
+    font-family: Pretendard, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 960px;
+    margin: auto;
+    padding: 60px 30px 0 30px;
+    color: darkslategray;
+}
+
+code, pre {
+    font-family: 'NeoDunggeunmo Code', 'Courier New', Courier, monospace;
+    display: block;
+    margin: 16px 0 16px 0;
+    border-radius: 6px;
+    padding: 12px;
+    line-height: 1.5em;
+    background-color: darkslategray;
+    color: lightgoldenrodyellow;
+}
