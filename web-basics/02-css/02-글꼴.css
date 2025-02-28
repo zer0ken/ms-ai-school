@@ -9,10 +9,22 @@ body {
 code, pre {
     font-family: 'NeoDunggeunmo Code', 'Courier New', Courier, monospace;
     display: block;
-    margin: 16px 0 16px 0;
     border-radius: 6px;
-    padding: 12px;
+    padding: 16px 32px 16px 32px;
     line-height: 1.5em;
     background-color: darkslategray;
     color: lightgoldenrodyellow;
+}
+
+blockquote {
+    margin: 0;
+    padding: 16px 32px 16px 32px;
+    border-radius: 6px;
+    line-height: 1.5em;
+    background-color: lightgoldenrodyellow;
+    border-left: 4px solid darkslategray;
+}
+
+.snake-img {
+    width: 100%;
 }
