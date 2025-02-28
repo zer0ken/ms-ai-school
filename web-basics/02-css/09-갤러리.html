@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 갤러리</title>
+    <style>
+        h2 {
+            display: flex;
+            justify-content: center;
+        }
+        #gallery {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+        }
+        .cell {
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .image {
+            border-radius: 10px;
+            display: flex;
+            min-width: 140px;
+            min-height: 140px;
+            background-image: url('resources/chill.png');
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+            margin-bottom: 8px;
+        }
+        .name {
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @media screen and (min-width: 480px) {
+            #gallery {
+                grid-template-columns: repeat(2, 2fr);
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            #gallery {
+                grid-template-columns: repeat(3, 2fr);
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            #gallery {
+                grid-template-columns: repeat(5, 2fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>갤러리</h2>
+    <div id="gallery">
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+        <div class="cell">
+            <div class="image"></div>
+            <div class="name">Chill...</div>
+        </div>
+    </div>
+</body>
+</html>
