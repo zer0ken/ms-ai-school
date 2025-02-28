@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08 디스플레이 그리드</title>
+    <style>
+        #container {
+            background-color: lightblue;
+            padding: 10px;
+            
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+        }
+
+        .box {
+            min-width: 100px;
+            min-height: 100px;
+            background-color: pink;
+            border: 1px solid white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 480px) {
+            #container {
+                grid-template-columns: repeat(2, 2fr);
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            #container {
+                grid-template-columns: repeat(3, 2fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+    </div>
+</body>
+</html>
