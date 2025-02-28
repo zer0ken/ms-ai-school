@@ -4,3 +4,40 @@ body {
     margin: auto;
     padding: 60px 30px 0 30px;
 }
+
+#main-container {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.container {
+    background-color: lightyellow;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: armenian;
+}
+
+[href="https://www.w3.org/"] {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    background-color: aquamarine;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
