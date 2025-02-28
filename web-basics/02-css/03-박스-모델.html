@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 박스 모델</title>
+    <style>
+        .box1,
+        .box2,
+        .box3 {
+            width: 400px;
+            border: 20px, solid, black;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .box3 {
+            border: 5px, solid, black;
+            box-sizing: border-box;
+            border-style: double;
+            border-top-color: blue;
+
+        }
+
+        .box3:hover {
+            box-shadow: 5px 5px 5px red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>박스 모델</h1>
+    <div class="box1">나는 박스1입니다.</div>
+    <div class="box2">나는 박스2입니다.</div>
+    <div class="box3">나는 박스3입니다.</div>
+</body>
+
+</html>
