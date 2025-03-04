@@ -46,7 +46,7 @@ switch (month) {
         days = cond1 && (!cond2 || cond3) ? 29 : 28;
         break;
     default:
-        days = `${ month } is Invalid Month`;
+        days = `${month} is Invalid Month`;
 }
 
-console.log(`year: ${year}\nmonth: ${month}\ndays: ${days}`);
+console.log(`year:\t${year}\nmonth:\t${month}\ndays:\t${days}`);
