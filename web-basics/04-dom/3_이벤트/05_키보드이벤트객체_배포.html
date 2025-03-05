@@ -10,11 +10,20 @@
 <body>
   <p>키보드를 누르면 어떤 키를 눌렀는지 표시</p>
   <div><input type="text" /></div>
+  <div><input type="text" /></div>
+  <div><input type="text" /></div>
   <div class="key"><!--키 표시--></div>
   <script>
     const $key = document.querySelector(".key");
-    const $input = document.querySelector("input");
-    $input.onkeyup = (e) => $key.textContent = e.key;
+    const [$input1, $input2, $input3] = document.querySelectorAll("input");
+
+    const f1 = (e) => { return $key.textContent = e.key; };
+    const f2 = (e) => { $key.textContent = e.key; };
+    const f3 = (e) => $key.textContent = e.key;
+
+    $input1.onkeyup = (e) => console.log(f1(e));
+    $input2.onkeyup = (e) => console.log(f2(e));
+    $input3.onkeyup = (e) => console.log(f3(e));
   </script>
 </body>
 
