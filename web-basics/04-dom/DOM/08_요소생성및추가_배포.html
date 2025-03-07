@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <ul class="web">
+    <li class="html">html</li>
+    <li class="css">css</li>
+    <li class="js">javascript</li>
+  </ul>
+  <script>
+    function createListItem(text) {
+      const $li = document.createElement("li");
+      const $text = document.createTextNode(text);
+      const $ul = document.querySelector("ul");
+      $ul.appendChild($li);
+      $li.appendChild($text);
+    }
+    
+    createListItem("python");
+    createListItem("kotlin");
+    createListItem("c-lang");
+
+    document.querySelector(".js").remove();
+    
+  </script>
+</body>
+
+</html>
