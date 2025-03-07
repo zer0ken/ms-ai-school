@@ -1,0 +1,30 @@
+#container {
+  width: 400px;
+}
+h1 {
+  text-align: center;
+}
+.label {
+  display: inline-block;
+  width: 150px;
+}
+input[type="number"] {
+  width: 100px;
+  text-align: right;
+}
+ol {
+  list-style-type: circle;
+}
+.weeks {
+  display: inline-block;
+  width: 150px;
+}
+.now-saving {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  background-color: lightgoldenrodyellow;
+}
+input[type="button"] {
+  width: 400px;
+}
