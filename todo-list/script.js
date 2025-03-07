@@ -56,6 +56,10 @@ function addTodoToDOM(todo) {
         $span.classList.add('completed');
     }
 
+    const $timestamp = document.createElement('span');
+    $timestamp.classList.add('timestamp');
+    $timestamp.innerHTML = new Date().toLocaleString();
+
     const $textComplete = document.createTextNode(todo.content);
 
     const $btnDelete = document.createElement('button')
@@ -67,25 +71,27 @@ function addTodoToDOM(todo) {
 
     $li.appendChild($checkbox);
     $li.appendChild($span);
+    $li.appendChild($timestamp);
     $li.appendChild($btnDelete);
 
     $span.appendChild($textComplete);
     $btnDelete.appendChild($textDelete);
     
-    $li.onclick = () => updateTodo(!todo.completed, todo, $checkbox, $span);
+    $li.onclick = () => updateTodo(!todo.completed, todo, $checkbox, $li, $timestamp);
     $btnDelete.onclick = () => removeTodo(todo, $li);
 }
 
 
-function updateTodo(completed, todo, $checkbox, $span) {
+function updateTodo(completed, todo, $checkbox, $li, $timestamp) {
     $checkbox.checked = completed;
     todo.completed = completed;
-
+    
     if (completed) {
-        $span.classList.add('completed');
+        $li.classList.add('completed');
     } else {
-        $span.classList.remove('completed');
+        $li.classList.remove('completed');
     }
+    $timestamp.innerHTML = new Date().toLocaleString();
 
     updateLocalStorage();
 }

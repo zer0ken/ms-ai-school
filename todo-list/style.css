@@ -70,10 +70,22 @@ input[type="checkbox"] {
     border-radius: 12px;
 }
 
-.todo-item > .completed {
+.completed > span {
     text-decoration: line-through;
     font-style: italic;
     color: #6d6d6d;
+}
+
+.todo-item > .timestamp {
+    visibility: collapse;
+}
+
+.todo-item.completed > .timestamp {
+    visibility: visible;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .delete-btn {
