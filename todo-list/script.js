@@ -72,10 +72,7 @@ function addTodoToDOM(todo) {
     $span.appendChild($textComplete);
     $btnDelete.appendChild($textDelete);
     
-    $li.onclick = () => {
-        $checkbox.checked = !todo.completed;
-        updateTodo(!todo.completed, todo, $checkbox, $span);
-    }
+    $li.onclick = () => updateTodo(!todo.completed, todo, $checkbox, $span);
     $btnDelete.onclick = () => removeTodo(todo, $li);
 }
 
