@@ -49,6 +49,7 @@ function addTodoToDOM(todo) {
 
     const $checkbox = document.createElement('input');
     $checkbox.type = 'checkbox';
+    $checkbox.checked = todo.completed;
 
     const $span = document.createElement('span');
     if (todo.completed) {
@@ -73,19 +74,20 @@ function addTodoToDOM(todo) {
     
     $li.onclick = () => {
         $checkbox.checked = !todo.completed;
-        updateTodo($checkbox.checked, todo, $span);
+        updateTodo(!todo.completed, todo, $checkbox, $span);
     }
     $btnDelete.onclick = () => removeTodo(todo, $li);
 }
 
 
-function updateTodo(checked, todo, $span) {
-    if (checked) {
+function updateTodo(completed, todo, $checkbox, $span) {
+    $checkbox.checked = completed;
+    todo.completed = completed;
+
+    if (completed) {
         $span.classList.add('completed');
-        todo.completed = true;
     } else {
         $span.classList.remove('completed');
-        todo.completed = false;
     }
 
     updateLocalStorage();
