@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Todo List</h1>
+    <input type="text" id="input-todo" placeholder="여기에 할 일을 적어주세요." required />
+    <button id="btn-add">추가</button>
+
+    <ul id="todo-list">
+      <li class="todo-item">
+        <input type="checkbox" />
+        <span>미완료</span>
+        <button class="delete-btn">삭제</button>
+      </li>
+      <li class="todo-item">
+        <input type="checkbox" />
+        <span class="completed">완료</span>
+        <button class="delete-btn">삭제</button>
+      </li>
+      <!-- 할 일 목록이 여기에 동적으로 추가됩니다 -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
