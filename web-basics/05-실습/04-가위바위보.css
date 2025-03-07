@@ -1,0 +1,111 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dongle", sans-serif;
+}
+
+.container {
+  border: 5px solid lightblue;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.title {
+  background-color: lightblue;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 15%;
+}
+.choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+}
+
+.choice > button {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+}
+
+.choice > button:hover {
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+#scissors {
+  background: url("resources/scissors.png");
+  background-size: contain;
+}
+#rock {
+  background: url("resources/rock.png");
+  background-size: contain;
+}
+#paper {
+  background: url("resources/paper.png");
+  background-size: contain;
+}
+
+.result-container {
+  height: 40%;
+  border-radius: 10px;
+  background-color: #eee;
+  font-size: 1.5em;
+}
+.result-img {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+}
+.you,
+.computer {
+  width: 40%;
+  display: block;
+  text-align: center;
+}
+
+.result-container > div > div:nth-child(1) {
+  padding: 5px;
+}
+.result-container > div > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.result > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-message {
+  text-align: center;
+}
+
+.score {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.score > div {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+  /* border: 1px solid; */
+}

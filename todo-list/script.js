@@ -46,15 +46,15 @@ function createTodo() {
 function addTodoToDOM(todo) {
     const $li = document.createElement('li');
     $li.classList.add('todo-item');
+    if (todo.completed) {
+        $li.classList.add('completed');
+    }
 
     const $checkbox = document.createElement('input');
     $checkbox.type = 'checkbox';
     $checkbox.checked = todo.completed;
 
     const $span = document.createElement('span');
-    if (todo.completed) {
-        $span.classList.add('completed');
-    }
 
     const $timestamp = document.createElement('span');
     $timestamp.classList.add('timestamp');

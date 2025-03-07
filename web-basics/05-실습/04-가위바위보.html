@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가위바위보 게임</title>
+  <link rel="stylesheet" href="04-가위바위보.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- title -->
+    <div class="title">가위바위보 게임</div>
+    <!-- 선택 -->
+    <div class="choice">
+      <button id="rock"></button>
+      <button id="paper"></button>
+      <button id="scissors"></button>
+    </div>
+    <!-- 결과 -->
+    <div class="result-container">
+      <div class="result-img">
+        <div class="you">
+          <div>you</div>
+          <div>
+            <img src="resources/blank.png" alt="blank" width="70" height="70" id="user-choice-img" />
+          </div>
+        </div>
+        <div class="score">
+          <div>0</div>
+          <div>:</div>
+          <div>0</div>
+        </div>
+        <div class="computer">
+          <div>computer</div>
+          <div>
+            <img src="resources/blank.png" alt="blank" width="70" height="70" id="computer-choice-img" />
+          </div>
+        </div>
+      </div>
+      <div class="result-message"></div>
+    </div>
+  </div>
+  <script src="04-가위바위보.js"></script>
+</body>
+
+</html>
