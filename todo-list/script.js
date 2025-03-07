@@ -20,7 +20,6 @@ function triggerCreateTodo() {
     updateLocalStorage();
 }
 
-
 function updateLocalStorage() {
     localStorage.setItem('todoList', JSON.stringify(todoList));
 }
@@ -71,8 +70,11 @@ function addTodoToDOM(todo) {
 
     $span.appendChild($textComplete);
     $btnDelete.appendChild($textDelete);
-
-    $checkbox.onclick = () => updateTodo($checkbox.checked, todo, $span);
+    
+    $li.onclick = () => {
+        $checkbox.checked = !todo.completed;
+        updateTodo($checkbox.checked, todo, $span);
+    }
     $btnDelete.onclick = () => removeTodo(todo, $li);
 }
 
