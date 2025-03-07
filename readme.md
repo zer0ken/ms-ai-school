@@ -11,14 +11,17 @@
     <tr>
         <th>🧱<a href="web-basics/">web-basics</code></a></th>
         <th>✅<a href="todo-list/">todo-list</code></a></th>
+        <th>↕️<a href="todo-list/">up-&-down</code></a></th>
     </tr>
     <tr>
         <td>HTML, CSS, JavaScript 기초 실습</th>
         <td>Todo List 구현 실습</th>
+        <td>업&다운 숫자 맞추기 게임 구현 실습</th>
     </tr>
     <tr>
         <td><img src="resources/web-basics.png"></img></th>
         <td><img src="resources/todo-list.png"></img></th>
+        <td><img src="resources/up-&-down.png"></img></th>
     </tr>
 </table>
 
