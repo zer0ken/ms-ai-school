@@ -10,12 +10,15 @@
     <!-- 1행 -->
     <tr>
         <th>🧱<a href="web-basics/">web-basics</code></a></th>
+        <th>✅<a href="todo-list/">todo-list</code></a></th>
     </tr>
     <tr>
         <td>HTML, CSS, JavaScript 기초 실습</th>
+        <td>Todo List 구현 실습</th>
     </tr>
     <tr>
         <td><img src="resources/web-basics.png"></img></th>
+        <td><img src="resources/todo-list.png"></img></th>
     </tr>
 </table>
 
