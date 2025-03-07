@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+
+<body>
+    <script>
+        const user = {
+            name: '이현령',
+            age: 20,
+            hobby: ['ps', 'coding']
+        };
+        console.log('user', user);
+
+        localStorage.setItem('user', JSON.stringify(user));
+        console.log('localStorage', localStorage);
+
+        const user2 = JSON.parse(localStorage.getItem('user'));
+        console.log('user2', user2);
+
+        localStorage.removeItem('user');
+        // localStorage.clear();
+        console.log('localStorage', localStorage);
+    </script>
+</body>
+
+</html>
