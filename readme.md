@@ -11,7 +11,7 @@
     <tr>
         <th>🧱<a href="web-basics/">web-basics</code></a></th>
         <th>✅<a href="todo-list/">todo-list</code></a></th>
-        <th>↕️<a href="todo-list/">up-&-down</code></a></th>
+        <th>↕️<a href="up-&-down/">up-&-down</code></a></th>
     </tr>
     <tr>
         <td>HTML, CSS, JavaScript 기초 실습</th>
