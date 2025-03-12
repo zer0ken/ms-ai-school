@@ -5,13 +5,27 @@
 > [!NOTE]
 > `*.csv`, `*.json`, `*.xlsx` 등의 데이터 파일 및 일부 코드는 저작권 보호를 위해 저장소에 포함시키지 않고 있으니, 코드 실행 전에 필요한 파일을 확인하시고 적절한 위치에 직접 파일을 추가해주세요.
 
+## 💙 Azure OpenAI
+<table>
+    <!-- 1행 -->
+    <tr>
+        <th>🗯️<a href="azure-openai/"><code>azure-openai</code></a></th>
+    </tr>
+    <tr>
+        <td>Azure OpenAI를 이용한 챗봇 구현 실습</th>
+    </tr>
+    <tr>
+        <td><img src="resources/azure-openai2.png"></img></th>
+    </tr>
+</table>
+
 ## 📑 웹 프로그래밍
 <table>
     <!-- 1행 -->
     <tr>
-        <th>🧱<a href="web-basics/">web-basics</code></a></th>
-        <th>✅<a href="todo-list/">todo-list</code></a></th>
-        <th>↕️<a href="up-&-down/">up-&-down</code></a></th>
+        <th>🧱<a href="web-basics/"><code>web-basics</code></a></th>
+        <th>✅<a href="todo-list/"><code>todo-list</code></a></th>
+        <th>↕️<a href="up-&-down/"><code>up-&-down</code></a></th>
     </tr>
     <tr>
         <td>HTML, CSS, JavaScript 기초 실습</th>
