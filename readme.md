@@ -9,13 +9,13 @@
 <table>
     <!-- 1행 -->
     <tr>
-        <th>🗯️<a href="azure-openai/"><code>azure-openai</code></a></th>
+        <th>🔍<a href="ai-search/"><code>ai-search</code></a></th>
     </tr>
     <tr>
-        <td>Azure OpenAI를 이용한 챗봇 구현 실습</th>
+        <td>Azure OpenAI와 Search Service를 이용한 RAG 구현 실습</th>
     </tr>
     <tr>
-        <td><img src="resources/azure-openai2.png"></img></th>
+        <td><img src="resources/ai-search.png"></img></th>
     </tr>
 </table>
 
