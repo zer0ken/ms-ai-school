@@ -10,12 +10,15 @@
     <!-- 1행 -->
     <tr>
         <th>🔍<a href="ai-search/"><code>ai-search</code></a></th>
+        <th>🗣️<a href="ai-speech/"><code>ai-speech</code></a></th>
     </tr>
     <tr>
         <td>Azure OpenAI와 Search Service를 이용한 RAG 구현 실습</th>
+        <td>Azure OpenAI와 Speech Service를 이용한 STT/TTS 구현 실습</th>
     </tr>
     <tr>
         <td><img src="resources/ai-search.png"></img></th>
+        <td><img src="resources/ai-speech.png"></img></th>
     </tr>
 </table>
 
