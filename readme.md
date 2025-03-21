@@ -11,14 +11,17 @@
     <tr>
         <th>🔍<a href="ai-search/"><code>ai-search</code></a></th>
         <th>🗣️<a href="ai-speech/"><code>ai-speech</code></a></th>
+        <th>🔠<a href="ai-language/"><code>ai-language</code></a></th>
     </tr>
     <tr>
         <td>Azure OpenAI와 Search Service를 이용한 RAG 구현 실습</th>
-        <td>Azure OpenAI와 Speech Service를 이용한 STT/TTS 구현 실습</th>
+        <td>Azure OpenAI와 Speech Service를 이용한 STT/TTS 구현 실습</td>
+        <td>Language Service를 이용한 자연어 분석 실습</td>
     </tr>
     <tr>
         <td><img src="resources/ai-search.png"></img></th>
-        <td><img src="resources/ai-speech.png"></img></th>
+        <td><img src="resources/ai-speech.png"></img></td>
+        <td><img src="resources/ai-language.png"></img></td>
     </tr>
 </table>
 
