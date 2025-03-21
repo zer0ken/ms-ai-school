@@ -14,12 +14,12 @@
         <th>🔠<a href="ai-language/"><code>ai-language</code></a></th>
     </tr>
     <tr>
-        <td>Azure OpenAI와 Search Service를 이용한 RAG 구현 실습</th>
+        <td>Azure OpenAI와 Search Service를 이용한 RAG 구현 실습</td>
         <td>Azure OpenAI와 Speech Service를 이용한 STT/TTS 구현 실습</td>
         <td>Language Service를 이용한 자연어 분석 실습</td>
     </tr>
     <tr>
-        <td><img src="resources/ai-search.png"></img></th>
+        <td><img src="resources/ai-search.png"></img></td>
         <td><img src="resources/ai-speech.png"></img></td>
         <td><img src="resources/ai-language.png"></img></td>
     </tr>
@@ -34,14 +34,14 @@
         <th>↕️<a href="up-&-down/"><code>up-&-down</code></a></th>
     </tr>
     <tr>
-        <td>HTML, CSS, JavaScript 기초 실습</th>
-        <td>Todo List 구현 실습</th>
-        <td>업&다운 숫자 맞추기 게임 구현 실습</th>
+        <td>HTML, CSS, JavaScript 기초 실습</td>
+        <td>Todo List 구현 실습</td>
+        <td>업&다운 숫자 맞추기 게임 구현 실습</td>
     </tr>
     <tr>
-        <td><img src="resources/web-basics.png"></img></th>
-        <td><img src="resources/todo-list.png"></img></th>
-        <td><img src="resources/up-&-down.png"></img></th>
+        <td><img src="resources/web-basics.png"></img></td>
+        <td><img src="resources/todo-list.png"></img></td>
+        <td><img src="resources/up-&-down.png"></img></td>
     </tr>
 </table>
 
