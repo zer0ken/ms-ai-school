@@ -25,12 +25,15 @@
     </tr>
     <!-- 2행 -->
     <tr>
+        <th>📃<a href="ai-document/"><code>ai-document</code></a></th>
         <th>🧊<a href="refrigerator/"><code>refrigerator</code></a></th>
     </tr>
     <tr>
+        <td>Document Intelligence Service를 이용한 이미지 분석 실습</td>
         <td>자유 주제: 식자재 관리 도우미 구현 실습</td>
     </tr>
     <tr>
+        <td><img src="resources/ai-document.png"></img></td>
         <td><img src="resources/refrigerator.png"></img></td>
     </tr>
 </table>
