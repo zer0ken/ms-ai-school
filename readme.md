@@ -31,7 +31,7 @@
         <td>자유 주제: 식자재 관리 도우미 구현 실습</td>
     </tr>
     <tr>
-        <td><img src="resources/refridgerator.png"></img></td>
+        <td><img src="resources/refrigerator.png"></img></td>
     </tr>
 </table>
 
