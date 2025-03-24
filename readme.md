@@ -23,6 +23,16 @@
         <td><img src="resources/ai-speech.png"></img></td>
         <td><img src="resources/ai-language.png"></img></td>
     </tr>
+    <!-- 2행 -->
+    <tr>
+        <th>🧊<a href="refridgerator/"><code>refridgerator</code></a></th>
+    </tr>
+    <tr>
+        <td>자유 주제: 식자재 관리 도우미 구현 실습</td>
+    </tr>
+    <tr>
+        <td><img src="resources/refridgerator.png"></img></td>
+    </tr>
 </table>
 
 ## 📑 웹 프로그래밍
