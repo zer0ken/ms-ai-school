@@ -143,13 +143,13 @@
     </tr>
     <!-- 4행 -->
     <tr>
-        <th colspan=999>🕸️<a href="browser/"><code>browser</code></a></th>
+        <th colspan=999>🕸️<a href="crawl-&-scrap/"><code>crawl-&-scrap</code></a></th>
     </tr>
     </tr>
     <tr>
         <td colspan=999>웹 크롤링 & 스크래핑 실습</td>
     </tr>
     <tr>
-        <td colspan=999><img src="resources/brower.png"></img></td>
+        <td colspan=999><img src="resources/crawl-&-scrap.png"></img></td>
     </tr>
 </table>
