@@ -16,7 +16,7 @@
     <tr>
         <td>Azure OpenAI와 Search Service를 이용한 RAG 구현 실습</td>
         <td>Azure OpenAI와 Speech Service를 이용한 STT/TTS 구현 실습</td>
-        <td>Language Service를 이용한 자연어 분석 실습</td>
+        <td>Azure Language Service를 이용한 자연어 분석 실습</td>
     </tr>
     <tr>
         <td><img src="resources/ai-search.png"></img></td>
@@ -26,14 +26,17 @@
     <!-- 2행 -->
     <tr>
         <th>📃<a href="ai-document/"><code>ai-document</code></a></th>
+        <th>🧿<a href="ai-vision/"><code>ai-vision</code></a></th>
         <th>🧊<a href="refrigerator/"><code>refrigerator</code></a></th>
     </tr>
     <tr>
-        <td>Document Intelligence Service를 이용한 이미지 분석 실습</td>
+        <td>Azure Document Intelligence Service를 이용한 문서 이미지 실습</td>
+        <td>Azure Computer Vision을 이용한 이미지 분석 실습</td>
         <td>자유 주제: 식자재 관리 도우미 구현 실습</td>
     </tr>
     <tr>
         <td><img src="resources/ai-document.png"></img></td>
+        <td><img src="resources/ai-vision.png"></img></td>
         <td><img src="resources/refrigerator.png"></img></td>
     </tr>
 </table>
