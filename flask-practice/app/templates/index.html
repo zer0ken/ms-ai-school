@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <h1>내가 만든 웹페이지</h1>
+    {% if username == 'admin' %}
+    <h2>어서오세요, 관리자님!</h2>
+    {% elif username %}
+    <h2>환영합니다, {{username}}님!</h2>
+    {% else %}
+    <h2>환영합니다, 방문자님!</h2>
+    {% endif %}
+</body>
+
+</html>

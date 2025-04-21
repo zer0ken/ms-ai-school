@@ -3,3 +3,6 @@
 *.csv
 *.json
 *.xlsx
+
+__pycache__/
+*.pyc

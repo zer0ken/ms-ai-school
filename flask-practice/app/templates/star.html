@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <h1>별찍기</h1>
+    {% if not N or N <= 0 %}
+        <p>자연수 N을 지정하세요.</p>
+        <p>
+            입력 예시: <br>
+            <code>.../star/3</code>
+        </p>
+        <p>
+            출력 예시: <br>
+            <code>
+                *<br>
+                **<br>
+                ***<br>
+            </code>
+        </p>
+    {% else %}
+        <p>입력: {{N}}</p>
+        <p>출력:<br>
+            <code>
+                {% for i in range(N) %}
+                    {{ stars[i] }}<br>
+                {% endfor %}
+            </code>
+        </p>
+    {% endif %}
+</body>
+
+</html>
