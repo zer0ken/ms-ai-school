@@ -5,6 +5,36 @@
 > [!NOTE]
 > `*.csv`, `*.json`, `*.xlsx` 등의 데이터 파일 및 일부 코드는 저작권 보호를 위해 저장소에 포함시키지 않고 있으니, 코드 실행 전에 필요한 파일을 확인하시고 적절한 위치에 직접 파일을 추가해주세요.
 
+## 📑 웹 프로그래밍
+<table>
+    <!-- 1행 -->
+    <tr>
+        <th>🧱<a href="web-basics/"><code>web-basics</code></a></th>
+        <th>✅<a href="todo-list/"><code>todo-list</code></a></th>
+        <th>↕️<a href="up-&-down/"><code>up-&-down</code></a></th>
+    </tr>
+    <tr>
+        <td>HTML, CSS, JavaScript 기초 실습</td>
+        <td>Todo List 구현 실습</td>
+        <td>업&다운 숫자 맞추기 게임 구현 실습</td>
+    </tr>
+    <tr>
+        <td><img src="resources/web-basics.png"></img></td>
+        <td><img src="resources/todo-list.png"></img></td>
+        <td><img src="resources/up-&-down.png"></img></td>
+    </tr>
+    <!-- 2행 -->
+    <tr>
+        <th>⚗️<a href="flask-basics/"><code>flask-basics</code></a></th>
+    </tr>
+    <tr>
+        <td>Flask 기초 실습</td>
+    </tr>
+    <tr>
+        <td><img src="resources/flask-basics.png"></img></td>
+    </tr>
+</table>
+
 ## 💙 Azure OpenAI
 <table>
     <!-- 1행 -->
@@ -38,26 +68,6 @@
         <td><img src="resources/ai-document.png"></img></td>
         <td><img src="resources/ai-vision.png"></img></td>
         <td><img src="resources/refrigerator.png"></img></td>
-    </tr>
-</table>
-
-## 📑 웹 프로그래밍
-<table>
-    <!-- 1행 -->
-    <tr>
-        <th>🧱<a href="web-basics/"><code>web-basics</code></a></th>
-        <th>✅<a href="todo-list/"><code>todo-list</code></a></th>
-        <th>↕️<a href="up-&-down/"><code>up-&-down</code></a></th>
-    </tr>
-    <tr>
-        <td>HTML, CSS, JavaScript 기초 실습</td>
-        <td>Todo List 구현 실습</td>
-        <td>업&다운 숫자 맞추기 게임 구현 실습</td>
-    </tr>
-    <tr>
-        <td><img src="resources/web-basics.png"></img></td>
-        <td><img src="resources/todo-list.png"></img></td>
-        <td><img src="resources/up-&-down.png"></img></td>
     </tr>
 </table>
 
