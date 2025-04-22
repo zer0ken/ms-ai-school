@@ -9,5 +9,35 @@ flask run
 
 ![](/resources/flask-basics.png)
 
+### `index`
+```
+.../
+.../admin
+.../<username>
+```
+
+### `login`
+```
+.../login
+.../login/<username>
+```
+
+### `hello`
+```
+.../hello
+```
+
+### `star`
+```
+.../star
+.../star/<int:N>
+```
+
+### `board`
+```
+.../board
+.../board/<int:article_id>
+```
+
 ---
 [`나가기`](../)
