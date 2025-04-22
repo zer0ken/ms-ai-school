@@ -69,6 +69,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "flask" },
     { name = "flask-migrate" },
+    { name = "logging" },
     { name = "python-dotenv" },
 ]
 
@@ -76,6 +77,7 @@ dependencies = [
 requires-dist = [
     { name = "flask", specifier = ">=3.1.0" },
     { name = "flask-migrate", specifier = ">=4.1.0" },
+    { name = "logging", specifier = ">=0.4.9.6" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
 ]
 
@@ -160,6 +162,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67", size = 134899 },
 ]
+
+[[package]]
+name = "logging"
+version = "0.4.9.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/93/4b/979db9e44be09f71e85c9c8cfc42f258adfb7d93ce01deed2788b2948919/logging-0.4.9.6.tar.gz", hash = "sha256:26f6b50773f085042d301085bd1bf5d9f3735704db9f37c1ce6d8b85c38f2417", size = 96029 }
 
 [[package]]
 name = "mako"

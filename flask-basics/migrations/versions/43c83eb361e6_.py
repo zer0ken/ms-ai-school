@@ -1,8 +1,8 @@
 """empty message
 
-Revision ID: b7dc7f5b53b3
+Revision ID: 43c83eb361e6
 Revises: 
-Create Date: 2025-04-22 14:39:01.769929
+Create Date: 2025-04-22 16:30:38.944011
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'b7dc7f5b53b3'
+revision = '43c83eb361e6'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -25,16 +25,15 @@ def upgrade():
     sa.Column('email', sa.String(length=120), nullable=False),
     sa.PrimaryKeyConstraint('id'),
     sa.UniqueConstraint('email'),
-    sa.UniqueConstraint('id'),
     sa.UniqueConstraint('username')
     )
     op.create_table('question',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('subject', sa.String(length=200), nullable=False),
     sa.Column('content', sa.Text(), nullable=False),
-    sa.Column('create_date', sa.DateTime(), nullable=False),
+    sa.Column('created_at', sa.DateTime(), nullable=False),
     sa.Column('user_id', sa.Integer(), nullable=False),
-    sa.Column('modify_date', sa.DateTime(), nullable=True),
+    sa.Column('modified_at', sa.DateTime(), nullable=True),
     sa.ForeignKeyConstraint(['user_id'], ['user.id'], ondelete='CASCADE'),
     sa.PrimaryKeyConstraint('id')
     )
