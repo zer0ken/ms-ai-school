@@ -10,5 +10,7 @@ dependencies = [
     "flask-migrate>=4.1.0",
     "flask-wtf>=1.2.2",
     "logging>=0.4.9.6",
+    "postgres>=4.0",
+    "psycopg2>=2.9.10",
     "python-dotenv>=1.1.0",
 ]

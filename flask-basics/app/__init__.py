@@ -1,7 +1,7 @@
 from flask import Flask
 from logging.handlers import RotatingFileHandler
 
-from . import config
+from . import config, config_postgres
 from .db import db, migrate
 from .views import main_views, star_views, auth_views, question_views, answer_views, user_views
 
@@ -9,7 +9,7 @@ from .views import main_views, star_views, auth_views, question_views, answer_vi
 def create_app():
     app = Flask(__name__)
 
-    app.config.from_object(config)
+    app.config.from_object(config_postgres)
     db.init_app(app)
     migrate.init_app(app, db)
 
