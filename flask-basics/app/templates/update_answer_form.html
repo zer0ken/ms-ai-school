@@ -6,9 +6,7 @@
     {{ form.csrf_token }} {% include "form_errors.html" %}
     <div class="mb-3">
       <label for="content">답변내용</label>
-      <textarea class="form-control" name="content" id="content" rows="10">
-{{ form.content.data or '' }}</textarea
-      >
+      <textarea class="form-control" name="content" id="content" rows="10">{{ form.content.data or '' }}</textarea>
     </div>
     <button type="submit" class="btn btn-primary">저장하기</button>
   </form>

@@ -7,7 +7,7 @@ from app.db import db
 from app.forms import UserSignUpForm, UserSignInForm
 from app.models import User
 
-bp = Blueprint('auth', __name__, url_prefix='/auth')
+bp = Blueprint('auth', __name__, url_prefix='/auth/')
 log = logging.getLogger(__name__)
 
 

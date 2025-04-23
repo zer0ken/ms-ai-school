@@ -1,0 +1,77 @@
+<!-- 사용자 페이지 -->
+{% extends 'base.html' %} {% block content %}
+<div class="container">
+    {% if user %}
+    
+    <h1 class="border-bottom py-2">{{ user.username }}</h1>
+
+    <h5 class="my-3 py-2">질문 목록 ({{ user.questions|length }})</h5>
+    <table class="table" style="width: 100%;">
+        <thead>
+            <tr class="text-center table-light">
+                <th style="width: 100px;">#</th>
+                <th style="width: 20%;">질문 글</th>
+                <th style="max-width: 99%">질문 본문</ths>
+                <th style="width: 100px;">작성자</th>
+                <th style="width: 100px;">작성 일시</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if user.questions %}
+            {% for question in user.questions %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>
+                    <a href="{{ url_for('question.detail', question_id=question.id) }}">{{ question.subject }}</a>
+                </td>
+                <td>{{ question.content }}</td>
+                <td><a href="{{ url_for('user.profile', username=question.user.username) }}">{{ question.user.username }}</a></td>
+                <td>{{ question.created_at }}</td>
+            </tr>
+            {% endfor %}
+            {% else %}
+            <tr>
+                <td align="center" colspan="4">질문이 없습니다.</td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+
+    <h5 class="my-3 py-2">답변 목록 ({{ user.answers|length }})</h5>
+    <table class="table" style="width: 100%;">
+        <thead>
+            <tr class="text-center table-light">
+                <th style="width: 100px;">#</th>
+                <th style="max-width: 99%">답변 본문</th>
+                <th style="width: 20%;">질문 글</th>
+                <th style="width: 100px;">작성자</th>
+                <th style="width: 100px;">답변 작성 일시</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if user.answers %}
+            {% for answer in user.answers %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ answer.content }}</td>
+                <td>
+                    <a href="{{ url_for('question.detail', question_id=answer.question.id) }}">{{ answer.question.subject }}</a>
+                </td>
+                <td><a href="{{ url_for('user.profile', username=answer.user.username) }}">{{ answer.user.username }}</a></td>
+                <td>{{ answer.created_at }}</td>
+            </tr>
+            {% endfor %}
+            {% else %}
+            <tr>
+                <td align="center" colspan="4">답변이 없습니다.</td>
+            </tr>
+            {% endif %}
+        </tbody>
+
+    {% else %}
+    
+    <h2 class="border-bottom py-2">사용자 정보가 없습니다.</h2>
+
+    {% endif %}
+</div>
+{% endblock %}

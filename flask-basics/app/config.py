@@ -1,7 +1,7 @@
 import os
+import secrets
 
-DEBUG = True
-SECRET_KEY = 'dev'
+SECRET_KEY = secrets.token_urlsafe(64)
 
 BASE_DIR = os.path.dirname(__file__)
 

@@ -13,16 +13,17 @@
     </thead>
     <tbody>
       {% if questions %}
-        {% for question in questions %}
-        <tr>
-          <td>{{ loop.index }}</td>
-          <td>
-            <a href="{{ url_for('question.detail', question_id=question.id) }}">{{ question.subject }}</a>
-          </td>
-          <td>{{ question.user.username }}</td>
-          <td>{{ question.created_at }}</td>
-        </tr>
-        {% endfor %}
+      {% for question in questions %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>
+          <a href="{{ url_for('question.detail', question_id=question.id) }}">{{ question.subject }}</a>
+        </td>
+        <td><a href="{{ url_for('user.profile', username=question.user.username) }}">{{ question.user.username }}</a>
+        </td>
+        <td>{{ question.created_at }}</td>
+      </tr>
+      {% endfor %}
       {% else %}
       <tr>
         <td align="center" colspan="4">질문이 없습니다.</td>
@@ -30,5 +31,6 @@
       {% endif %}
     </tbody>
   </table>
+  <!-- TODO: 페이징 -->
 </div>
 {% endblock %}

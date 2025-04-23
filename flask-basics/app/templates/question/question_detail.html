@@ -5,16 +5,17 @@
   <div class="card my-3">
     <div class="card-body">
       <div class="card-text" style="white-space: pre-line">{{ question.content }}</div>
-      <div class="d-flex justify-content-end">
+      <div class="d-flex justify-content-end" style="gap: 8px;">
         <div class="badge bg-light text-dark p-2 text-start">
-          <div class="mb-2">{{ question.user.username }}</div>
-          <div>{{ question.create_date }}</div>
+          <div class="mb-2">
+            <a href="{{ url_for('user.profile', username=question.user.username) }}">{{ question.user.username }}</a>
+          </div>
         </div>
-      </div>
-      <!-------------->
-      <div class="my-3">
+        <div class="badge bg-light text-dark p-2 text-start">
+          <div>{{ question.created_at }}</div>
+        </div>
         {% if g.user == question.user %}
-        <a href="{{ url_for('question.modify', question_id=question.id) }}" class="btn btn-sm btn-outline-secondary">수정</a>
+        <a href="{{ url_for('question.update', question_id=question.id) }}" class="btn btn-sm btn-outline-secondary">수정</a>
         <a href="javascript:void(0)" class="delete btn btn-sm btn-outline-secondary"
           data-uri="{{ url_for('question.delete', question_id=question.id) }}">
           삭제
@@ -34,12 +35,13 @@
       <div class="card-text" style="white-space: pre-line">{{ answer.content }}</div>
       <div class="d-flex justify-content-end">
         <div class="badge bg-light text-dark p-2 text-start">
-          <div class="mb-2">{{ answer.user.username }}</div>
+          <div class="mb-2">
+            <a href="{{ url_for('user.profile', username=answer.user.username) }}">{{ answer.user.username }}</a>
+          </div>
           <div>{{ answer.create_date }}</div>
         </div>
       </div>
       <!-------------->
-      {#
       <div class="my-3">
         {% if g.user == answer.user %}
         <a href="{{ url_for('answer.update', answer_id=answer.id) }}" class="btn btn-sm btn-outline-secondary">
@@ -49,7 +51,6 @@
           data-uri="{{ url_for('answer.delete', answer_id=answer.id) }}">삭제</a>
         {% endif %}
       </div>
-      #}
       <!-------------->
     </div>
   </div>

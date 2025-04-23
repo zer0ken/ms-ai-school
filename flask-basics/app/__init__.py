@@ -3,7 +3,7 @@ from logging.handlers import RotatingFileHandler
 
 from . import config
 from .db import db, migrate
-from .views import main_views, star_views, auth_views, question_views, answer_views
+from .views import main_views, star_views, auth_views, question_views, answer_views, user_views
 
 
 def create_app():
@@ -18,6 +18,7 @@ def create_app():
     app.register_blueprint(auth_views.bp)
     app.register_blueprint(question_views.bp)
     app.register_blueprint(answer_views.bp)
+    app.register_blueprint(user_views.bp)
 
     # if not os.path.exists('logs'):
     #     os.makedirs('logs')

@@ -6,7 +6,7 @@ from app.models import Question, User, Answer
 from app.forms import QuestionForm, AnswerForm
 from datetime import datetime
 
-bp = Blueprint('question', __name__, url_prefix='/question')
+bp = Blueprint('question', __name__, url_prefix='/question/')
 
 
 @bp.route('/list/')
@@ -51,7 +51,7 @@ def create():
 
 
 @bp.route('/modify/<int:question_id>/', methods=('GET', 'POST'))
-def modify(question_id):
+def update(question_id):
     question = Question.query.get_or_404(question_id)
 
     if g.user != question.user:
