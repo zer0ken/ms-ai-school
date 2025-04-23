@@ -1,14 +1,19 @@
-from app.database import db
+from app.db import db
 
 
-class Question(db.Model):
+class Answer(db.Model):
     id = db.Column(
-        db.Integer, 
+        db.Integer,
         primary_key=True
     )
-    subject = db.Column(
-        db.String(200), 
+    question_id = db.Column(
+        db.Integer,
+        db.ForeignKey('question.id', ondelete='CASCADE'),
         nullable=False
+    )
+    question = db.relationship(
+        'Question', 
+        backref=db.backref('answers')
     )
     content = db.Column(
         db.Text(), 
@@ -25,7 +30,7 @@ class Question(db.Model):
     )
     user = db.relationship(
         'User', 
-        backref=db.backref('question_set')
+        backref=db.backref('answers')
     )
     updated_at = db.Column(
         db.DateTime(), 
@@ -33,4 +38,4 @@ class Question(db.Model):
     )
 
     def __repr__(self):
-        return f'<Question {self.subject}>'
+        return f'<Answer {self.content[:20]}>'

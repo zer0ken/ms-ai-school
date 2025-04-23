@@ -1,12 +1,10 @@
-import logging
 from datetime import datetime
 from flask import Blueprint, abort
 
-from app.database import db
-from app.database import User, Question, Answer
+from app.db import db
+from app.models import User, Question, Answer
 
 bp = Blueprint('sql', __name__, url_prefix='/sql')
-log = logging.getLogger(__name__)
 
 
 @bp.route('/user/create')
@@ -19,7 +17,6 @@ def create_user():
     db.session.add(user)
     db.session.commit()
 
-    log.debug(f'User created: {user}')
     return '사용자 정보가 생성되었습니다.'
 
 
@@ -37,15 +34,12 @@ def create_question():
     db.session.add(question)
     db.session.commit()
 
-    log.debug(f'Question created: {question}')
     return '질문이 생성되었습니다.'
 
 
 @bp.route('/question/read')
 def read_questions():
     questions = Question.query.all()
-    
-    log.debug(f'Questions read: {len(questions)} questions found')
     
     if not questions:
         return '질문이 없습니다.'
@@ -79,5 +73,4 @@ def delete_question():
     
     db.session.delete(question)
     db.session.commit()
-    log.debug(f'Question deleted: {question}')
     return '질문이 삭제되었습니다.'

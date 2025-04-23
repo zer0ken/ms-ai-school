@@ -1,25 +1,20 @@
-from app.database.database import db
+from app.db import db
 
 
-class Answer(db.Model):
+class Question(db.Model):
     id = db.Column(
-        db.Integer,
+        db.Integer, 
         primary_key=True
     )
-    question_id = db.Column(
-        db.Integer,
-        db.ForeignKey('question.id', ondelete='CASCADE'),
+    subject = db.Column(
+        db.String(200), 
         nullable=False
-    )
-    question = db.relationship(
-        'Question', 
-        backref=db.backref('answer_set')
     )
     content = db.Column(
         db.Text(), 
         nullable=False
     )
-    create_date = db.Column(
+    created_at = db.Column(
         db.DateTime(), 
         nullable=False
     )
@@ -30,12 +25,12 @@ class Answer(db.Model):
     )
     user = db.relationship(
         'User', 
-        backref=db.backref('answer_set')
+        backref=db.backref('questions')
     )
-    modify_date = db.Column(
+    updated_at = db.Column(
         db.DateTime(), 
         nullable=True
     )
 
     def __repr__(self):
-        return f'<Answer {self.content[:20]}>'
+        return f'<Question {self.subject}>'

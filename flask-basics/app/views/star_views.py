@@ -8,7 +8,7 @@ def star_info():
     return render_template('star.html', title='별찍기 / flask-practice')
 
 
-@bp.route('/<int:N>')
+@bp.route('/<int:N>/')
 def star(N):
     if N <= 0:
         return render_template('star.html', title='별찍기 / flask-practice', stars='자연수를 입력하세요.')

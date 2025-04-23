@@ -1,0 +1,34 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container my-3">
+  <a href="{{ url_for('question.create') }}" class="btn btn-primary">질문 등록</a>
+
+  <table class="table">
+    <thead>
+      <tr class="text-center table-light">
+        <th>번호</th>
+        <th style="width: 50%">제목</th>
+        <th>글쓴이</th>
+        <th>작성일시</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% if questions %}
+        {% for question in questions %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>
+            <a href="{{ url_for('question.detail', question_id=question.id) }}">{{ question.subject }}</a>
+          </td>
+          <td>{{ question.user.username }}</td>
+          <td>{{ question.created_at }}</td>
+        </tr>
+        {% endfor %}
+      {% else %}
+      <tr>
+        <td align="center" colspan="4">질문이 없습니다.</td>
+      </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
