@@ -12,25 +12,18 @@
         <th>🧱<a href="web-basics/"><code>web-basics</code></a></th>
         <th>✅<a href="todo-list/"><code>todo-list</code></a></th>
         <th>↕️<a href="up-&-down/"><code>up-&-down</code></a></th>
+        <th>⚗️<a href="flask-basics/"><code>flask-basics</code></a></th>
     </tr>
     <tr>
         <td>HTML, CSS, JavaScript 기초 실습</td>
         <td>Todo List 구현 실습</td>
         <td>업&다운 숫자 맞추기 게임 구현 실습</td>
+        <td>Flask 기초 실습</td>
     </tr>
     <tr>
         <td><img src="resources/web-basics.png"></img></td>
         <td><img src="resources/todo-list.png"></img></td>
         <td><img src="resources/up-&-down.png"></img></td>
-    </tr>
-    <!-- 2행 -->
-    <tr>
-        <th>⚗️<a href="flask-basics/"><code>flask-basics</code></a></th>
-    </tr>
-    <tr>
-        <td>Flask 기초 실습</td>
-    </tr>
-    <tr>
         <td><img src="resources/flask-basics.png"></img></td>
     </tr>
 </table>
